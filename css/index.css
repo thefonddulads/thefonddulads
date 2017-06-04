@@ -41,8 +41,10 @@
 .button {
   margin: auto;
   display: inline-block;
-  width: 10%;
-  length: 5%;
+  width: auto;
+  length: auto;
+  padding-left: 3px;
+  padding-right: 3px;
   background-color: white;
   border: 3px solid black;
 }
@@ -61,4 +63,7 @@ a.navt:link {
 a.navt:visited {
   color:black;
   text-decoration: none;
+}
+.list{
+  width: 25%; margin-left: auto; margin-right: auto; font-family: "Comic Sans MS"; font-size:150%; color:black;
 }
