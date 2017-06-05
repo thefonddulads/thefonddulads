@@ -48,5 +48,14 @@ switch(k) {
   case 'barbarian':
   title.innerHTML = "Barbarian";
   info.innerHTML = "<img class='castlepic' src='images/castle/barbarian.png'> <p class='biotext'>This is the barbarian's bio.</p>";
+  break;
+  case 'bear':
+  title.innerHTML = "Bear";
+  info.innerHTML = "<img class='castlepic' src='images/castle/bear.png'> <p class='biotext'>This is the bear's bio.</p>";
+  break;
+  case 'brute':
+  title.innerHTML = "Brute";
+  info.innerHTML = "<img class='castlepic' src='images/castle/brute.png'> <p class='biotext'>This is the brute's bio.</p>";
+  break;
  }
 }
