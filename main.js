@@ -57,5 +57,17 @@ switch(k) {
   title.innerHTML = "Brute";
   info.innerHTML = "<img class='castlepic' src='images/castle/brute.png'> <p class='biotext'>This is the brute's bio.</p>";
   break;
+  case 'civilian':
+  title.innerHTML = "Civilian";
+  info.innerHTML = "<img class='castlepic' src='images/castle/civilian.png'> <p class='biotext'>This is the civilians's bio.</p>";
+  break;
+  case 'conehead':
+  title.innerHTML = "Conehead";
+  info.innerHTML = "<img class='castlepic' src='images/castle/conehead.png'> <p class='biotext'>This is the conehead's bio.</p>";
+  break;
+  case 'cult':
+  title.innerHTML = "Cult Minion";
+  info.innerHTML = "<img class='castlepic' src='images/castle/cultminion.png'> <p class='biotext'>This is the cult minion's bio.</p>";
+  break;
  }
 }
