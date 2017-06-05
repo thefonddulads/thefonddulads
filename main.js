@@ -20,6 +20,7 @@ switch(k) {
   case 'green':
   title.innerHTML = "Green Knight";
   info.innerHTML = "<img class='castlepic' src='images/castle/green.png'> <p class='biotext'>This is the green knight's bio.</p>";
+  break; 
   case 'orange':
   title.innerHTML = "Orange Knight";
   info.innerHTML = "<img class='castlepic' src='images/castle/orange.png'> <p class='biotext'>This is the orange knight's bio.</p>";
