@@ -1,13 +1,8 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
 <head>
-<title>Max Holzmann | Random Toolsc</title>
-<link type="text/css" href="css/index.css" rel="stylesheet">
-<link rel="icon" href="images/favicon.png">
-<style>
-
-</style>
+<script src="main.js"></script>
+<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 
 <body>
@@ -27,16 +22,24 @@
 </ul>
 </div>
 </nav>  </div> <br>
+<div class="bod">
 
-
-<div class ="bod">
-<p class="text">This is just a series of random tools I've created for different things. Enjoy!</p>
-<div class="headerbutton">
-<a class="aye" href="castlechars.html">  <h1>Castle Crashers Character Tool</h1> </a>
+  <div class="header">
+  <h1 class="text" id="char">Select a character!</h1>
+</div> <br>
+<form id="knight">
+<select id="in" onchange="tier()">
+  <option value="char" id="char">Character</option>
+  <option value="red" id="red">Red Knight</option>
+  <option value="blue" id="blue">Blue Knight</option>
+</select>
+</form>
+<div class="fix">
+<p class="biotext" id="info"></p>
 </div>
-<p class="text">(WIP) This is a tool for the game Castle Crashers. Select a character and it'll show you a mini-bio of that character!</p>
 
 </div>
+
 
 </body>
 </html>

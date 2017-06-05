@@ -38,6 +38,24 @@
   box-shadow: 0px 11px 22px -2px rgba(0,0,0,0.75);
   margin:auto;
 }
+.headerbutton {
+  margin: auto;
+  display: inline-block;
+  border: 3px solid black;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-family: "Comic Sans MS";
+}
+.headerbutton:hover{
+  background-color:#d7d8d6;
+}
+a.aye:link {
+  color:black;
+  text-decoration: none;
+}
 .button {
   margin: auto;
   display: inline-block;
@@ -71,4 +89,19 @@ a.navt:visited {
   width: auto;
   height: auto;
   box-shadow: 0px 11px 22px -2px rgba(0,0,0,0.75);
+}
+.fix{
+  overflow: auto;
+}
+.castlepic {
+  display: inline-block;
+  float: left;
+  width: auto;
+  height: auto;
+  box-shadow: 0px 11px 22px -2px rgba(0,0,0,0.75);
+}
+.biotext {
+  color:black;
+  font-size:150%;
+  font-family: "Comic Sans MS";
 }
