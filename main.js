@@ -36,5 +36,10 @@ switch(k) {
   case 'blacksmith':
   title.innerHTML = "Blacksmith";
   info.innerHTML = "<img class='castlepic' src='images/castle/blacksmith.png'> <p class='biotext'>This is the blacksmith's bio.</p>";
+  break;
+  case 'pink':
+  title.innerHTML = "Pink Knight";
+  info.innerHTML = "<img class='castlepic' src='images/castle/pink.png'> <p class='biotext'>This is the pink knight's bio.</p>";
+  break;
 }
 }
