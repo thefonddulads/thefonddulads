@@ -1,0 +1,30 @@
+.header{
+  margin: auto;
+  border: 3px solid black;
+  width: 40%;
+  text-align: center;
+  padding:5px;
+  background-color:white;
+  font-family: "Comic Sans MS";
+  box-shadow: -4px 3px 40px 0px rgba(0,0,0,0.36);
+}
+.bod{
+  margin: auto;
+  border: 3px solid black;
+  width: 50%;
+  text-align: center;
+  padding:5px;
+  background-color:white;
+  font-family: "Comic Sans MS";
+  box-shadow: -4px 3px 40px 0px rgba(0,0,0,0.36);
+}
+.title{
+  margin: auto;
+  border: 3px solid black;
+  width: 20%;
+  text-align:center;
+  padding 5px;
+  background-color: white;
+  font-family: "Comic Sans MS";
+  box-shadow: -4px 3px 40px 0px rgba(0,0,0,0.36);
+}
