@@ -6,25 +6,66 @@
   padding:5px;
   background-color:white;
   font-family: "Comic Sans MS";
-  box-shadow: -4px 3px 40px 0px rgba(0,0,0,0.36);
+box-shadow: 0px -4px 54px -9px rgba(0,0,0,0.75);
 }
-.bod{
+.navi{
   margin: auto;
-  border: 3px solid black;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-top: 3px solid black;
   width: 50%;
   text-align: center;
   padding:5px;
   background-color:white;
   font-family: "Comic Sans MS";
-  box-shadow: -4px 3px 40px 0px rgba(0,0,0,0.36);
+
 }
-.title{
+.bod{
+  margin: auto;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  width: 50%;
+  padding: 5px;
+  text-align: center;
+  background-color:white;
+  font-family: "Comic Sans MS";
+}
+.title {
   margin: auto;
   border: 3px solid black;
-  width: 20%;
-  text-align:center;
-  padding 5px;
+  width: 50%;
+  padding: 4px;
+  text-align: center;
   background-color: white;
+  color: black;
   font-family: "Comic Sans MS";
-  box-shadow: -4px 3px 40px 0px rgba(0,0,0,0.36);
+}
+.button {
+  margin: auto;
+  text-align: center;
+  display: inline-block;
+  width: auto;
+  length: auto;
+  padding-left: 3px;
+  padding-right: 3px;
+  background-color: white;
+  border: 3px solid black;
+}
+.navt {
+  font-family: "Comic Sans MS";
+  font-size: 120%;
+  color: black;
+}
+a.navt:link {
+  color:black;
+  text-decoration: none;
+}
+a.navt:visited {
+  color:black;
+  text-decoration: none;
 }
