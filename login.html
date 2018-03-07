@@ -1,7 +1,6 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Fond du Lads | Songs</title>
+  <title>Fond du Lads | Lad Login</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -16,19 +15,19 @@
 <body>
 
    <nav class="navbar navbar-default">
-     <div class="container-fluid" id="nav-toggle">
+      <div class="container-fluid" id="nav-toggle">
 <button type="button" class="btn-lg" id="nav-body-toggle">
   <span class="glyphicon glyphicon-menu-hamburger"></span>
 </button>
     </div>
-  <div class="container-fluid" id="navbar-body">
+      <div class="container-fluid" id="navbar-body">
     <div class="navbar-header">
       <a  href="index.html"><img class="navbar-brand" src="images/favicon.png"></a>
     </div>
     <ul class="nav navbar-nav">
       <li ><a href="index.html">Home</a></li>
       <li><a href="lads.html">Lads</a></li>
-      <li class="active"><a href="songs.html">Songs</a></li>
+      <li><a href="songs.html">Songs</a></li>
        <li><a href="alumni.html">Alumni</a></li>
       <li><a href="contact.html">Contact</a></li>
       <li class="dropdown">
@@ -43,7 +42,7 @@
       </li>
     </ul>
   </div>
-</nav>
+   </nav>
 
 <div class="container-top container">
 <div class="text-center">
@@ -52,7 +51,8 @@
 <div class="row">
   
   <div class="text-center">
-  <div class="col-md-2"><img  id='heavy' class="img-responsive logoimage" src="images/favicon.png">
+  <div class="col-md-2">
+  <img  id='heavy' class="img-responsive logoimage" src="images/favicon.png">
   </div>
   </div>
   
@@ -62,34 +62,73 @@
     </div>
     </div>
 
-
-
-
-
 </div>
 </div>
-
+<a href="mailto:"></a>
+<div class="text-ceter">
 <div class="jumbotron">
-<div class="text-center">
-<h2>Current Song List</h2>
-<p class="lead">Don't see a song that you want us to perform for you? <a href="contact.html">Contact us</a> for any requests!</p>
-<ul class='list'>
-    <li>Hello Mary Lou</li>
-    <li>Lean On Me</li>
-    <li>Hallelujah</li>
-    <li>Crazy Little Thing Called Love</li>
-    <li>My Girl</li>
-    <li>Viva Tutti</li>
-    <li >He Ain't Heavy</li>
-    <li>You Don't Know You're Beautiful</li>
-</ul>
+<form action="scripts/login.php" method="POST">
+
+<div class="container">
+  <div class="row">
+  <h2 class="text-center">
+    <div class="col-md-4"></div>
+    <div class="col-md-2">
+ 
+<span class="glyphicon glyphicon-log-in text-center" aria-hidden="true"> Login</span>
+  </div>
+  <div class="col-md-4"></div>
+  </h2>
+  
 </div>
 </div>
+  
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        
+ <div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Username</span>
+  <input name="username" type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+</div>
+</div>
+</div>
+<div class="col-md-4"></div>
+  
+  <br>
+  <br>
+  
+ <div class="container">
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        
+ <div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Password</span>
+  <input name="password" type="password" class="form-control" placeholder="Password" aria-describedby="basic-addon1">
+</div>
+</div>
+</div>
+<div class="col-md-4"></div>
+  <br>
+  <br>
+  <div class="container">
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-1">
+  <button type="submit" class="btn btn-primary btn-lg">Login</button>
+  </div>
+  <div class="col-md-4"></div>
+</form>
 
 </div>
-
 </div>
-
+</div>
+</div>
+</div>
+</div>
 
 </body>
 
